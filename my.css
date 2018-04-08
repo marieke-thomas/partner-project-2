@@ -1,0 +1,30 @@
+* {
+    font-family:times;
+}
+/*asterisk selects everything*/
+/*command slash to comment*/
+
+body {
+    background-color:#7694AB;
+}
+
+p {
+    color: #024327;
+}
+
+
+#catmemecaption {
+    font-size:2rem;
+}
+
+h1 {
+    color: #1F1F63;
+}
+
+h2 {
+    color:#37377D;
+}
+
+u1 {
+    color: #024327;
+}
