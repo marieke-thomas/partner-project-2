@@ -30,3 +30,31 @@ h3 {
 u1 {
     color: #024327;
 }
+
+
+
+/*Grid-related portion*/
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    
+}
+
+#heading {
+    grid-column: span 3;
+    background-color: #06263F;
+}
+
+#body {
+    background-color: #7694AB;
+    min-height:600px;
+}
+
+#right-margin {background-color: #4C718E}
+#left-margin {background-color: #4C718E}
+
+#footer {
+    grid-column: span 3;
+    background-color: #06263F;
+}
