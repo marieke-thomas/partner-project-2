@@ -10,9 +10,9 @@ body {
     font-size: 1.2rem;
 }
 
-p {
-    color: #024327;
-}
+/*p {*/
+    /*color: #024327;*/
+/*}*/
 
 
 
@@ -27,9 +27,9 @@ h2 {
 h3 {
     color:#0C0C45;
 }
-u1 {
-    color: #024327;
-}
+/*u1 {*/
+/*    color: #024327;*/
+/*}*/
 
 
 
@@ -44,7 +44,7 @@ u1 {
     grid-column: span 3;
     background-color: #06263F;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     text-align:center;
     min-height:50px;
     padding-top:20px;
@@ -75,8 +75,41 @@ u1 {
     /*color: #136140;*/
 }
 
+#footer-contact-1 {
+    text-align:center;
+    color: white;
+}
+
 #copyright {
     font-size: 0.8rem;
     /*color: #59599A;*/
     color: #136140;
+}
+
+#copyright-1{
+    font-size: 0.8rem;
+    color:white;
+}
+
+#programming {
+    background-color: white;
+}
+
+#programming-footer {
+    overflow:hidden;
+}
+
+.picture {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: white;
 }
