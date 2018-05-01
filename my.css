@@ -27,6 +27,21 @@ h2 {
 h3 {
     color:#0C0C45;
 }
+
+#heading a:link {
+color: #59599A;
+text-decoration: none;
+}
+
+
+#heading a:visited {
+color: #59599A;
+}
+
+#heading a:hover {
+color: #7a599a;
+}
+
 /*u1 {*/
 /*    color: #024327;*/
 /*}*/
